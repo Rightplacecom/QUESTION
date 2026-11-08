@@ -1,6 +1,6 @@
 # A Little Surprise ❤️
 
-A mobile-first React confession website built with Vite.
+A mobile-first confession website built with plain HTML, CSS, and JavaScript.
 
 ## Run locally
 
@@ -9,17 +9,16 @@ npm install
 npm run dev
 ```
 
-## Personalize
+## Configuration
 
-- Set the recipient name with a URL parameter, for example: `?name=TANYA`
-- The default name is `TANYA`.
-- Set `INSTAGRAM_USERNAME` near the top of `src/App.jsx` to the real profile username, without `@`.
+Update `PASSWORD`, `CONFESSION`, and `INSTAGRAM_USERNAME` at the top of `script.js`.
+The default name is `TANYA`; it may be overridden with `?name=TANYA`.
 
-## Build
+## Production
 
 ```bash
 npm run build
 npm run preview
 ```
 
-This entry gate is intentionally frontend-only and is not real authentication.
+The entry password is frontend-only and is not real authentication.
